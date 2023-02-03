@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace LikeSystem
 {
-    public static class Like
+    public class Like
     {
-        public static string DisplayLikes(List<string> likes)
+        public string DisplayLikes(List<string> likes)
         {
             return (likes?.Count ?? 0) switch
             {
